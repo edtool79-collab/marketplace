@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/mcp.schema.json",
+  "id": "hirepulse-agent-gateway",
+  "type": "mcp",
+  "name": "HirePulse Agent Gateway",
+  "tagline": "Website technologies and company open jobs for AI agents",
+  "description": "Remote MCP tools for website technology and company open-jobs lookups. Five successful calls per day per IP are free; paid HTTP results cost $0.01 USDC on Base via x402 v2. Failed or empty lookups are free. No account or API key. MCP calls use the free quota; paid calls use HTTP.",
+  "homepage": "https://hirepulse-gateway.hirepulse-commerce-sandbox.workers.dev/",
+  "tags": [
+    "data",
+    "business",
+    "sales",
+    "research"
+  ],
+  "verified": false,
+  "featured": false,
+  "install": {
+    "args": [
+      "hirepulse-agent-gateway",
+      "--transport",
+      "http",
+      "https://hirepulse-gateway.hirepulse-commerce-sandbox.workers.dev/mcp"
+    ],
+    "notes": "MCP calls use the free quota; paid calls use the HTTP API with x402."
+  }
+}
