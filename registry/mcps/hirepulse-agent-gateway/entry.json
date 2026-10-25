@@ -3,9 +3,9 @@
   "id": "hirepulse-agent-gateway",
   "type": "mcp",
   "name": "HirePulse Agent Gateway",
-  "tagline": "Website technologies and company open jobs for AI agents",
-  "description": "Remote MCP tools for website technology and company open-jobs lookups. Five successful calls per day per IP are free; paid HTTP results cost $0.01 USDC on Base via x402 v2. Failed or empty lookups are free. No account or API key. MCP calls use the free quota; paid calls use HTTP.",
-  "homepage": "https://hirepulse-gateway.hirepulse-commerce-sandbox.workers.dev/",
+  "tagline": "Company intelligence, commerce evidence and agent utilities",
+  "description": "26 remote MCP tools. Company profiles combine tech stack, hiring intent, Google Ads and public contacts with breakout_summary growth signals ($0.03 USDC). Five free calls/day per IP; eligible Base wallets or business emails can claim 25 trial calls. Free sandbox: example.com. Paid calls use x402 v2 on Base over HTTP or payment-capable MCP clients.",
+  "homepage": "https://gethirepulse.xyz/",
   "tags": [
     "data",
     "business",
@@ -19,8 +19,8 @@
       "hirepulse-agent-gateway",
       "--transport",
       "http",
-      "https://hirepulse-gateway.hirepulse-commerce-sandbox.workers.dev/mcp"
+      "https://gethirepulse.xyz/mcp"
     ],
-    "notes": "MCP calls use the free quota; paid calls use the HTTP API with x402."
+    "notes": "Remote Streamable HTTP MCP: https://gethirepulse.xyz/mcp. Focused profiles: ?profile=b2b (8 tools) and ?profile=commerce (11 tools). Free sandbox: example.com. Paid calls require an x402-capable client; listing tools requires no payment."
   }
 }
